@@ -55,3 +55,40 @@
     z-index: 1;
 }
 /**************/
+
+
+/**Horario**/
+.horario {
+    background-image: url("/assets/img/background/bg-test.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 3em;
+    padding-top: 1rem;
+
+}
+
+/*tabla*/
+table{
+    border: 1px solid #ffce35;
+    width: 100%;
+  }
+  
+  
+  table td{
+    padding: 15px;
+    border: 1px solid #ffce35;
+    color:#ffce35;
+  }
+
+  .table-warning td{
+      color:black;
+  }
+  
+  .p{
+    color: #ffce35;
+  }
+  
+  .p:hover{
+    background: none;
+  }
+  
