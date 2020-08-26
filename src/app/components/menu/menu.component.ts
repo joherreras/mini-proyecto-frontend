@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, HostListener } from '@angular/core';
 
 @Component({
   selector: 'app-menu',
@@ -7,7 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MenuComponent implements OnInit {
 
+  isScrolled = false;
+
   constructor() { }
+
+  @HostListener("window:scroll")
+  scrollEvent() {
+    window.pageYOffset >= 80 ? (this.isScrolled = true) : (this.isScrolled = false);
+  }
 
   ngOnInit(): void {
   }

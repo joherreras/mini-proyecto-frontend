@@ -9,13 +9,5 @@ import { Component, OnInit, HostListener } from '@angular/core';
 export class HomeComponent implements OnInit {
   ngOnInit(): void {
   }
-  isScrolled = false;
-
-  constructor() { }
-
-  @HostListener("window:scroll")
-  scrollEvent() {
-    window.pageYOffset >= 80 ? (this.isScrolled = true) : (this.isScrolled = false);
-  }
 
 }
