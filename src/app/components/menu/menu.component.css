@@ -1,0 +1,12 @@
+
+.nav-usuario{
+    background-color: #EAE5DC;
+    z-index: 10000000;
+}
+
+.nav-usuario a{
+    color: black;
+}
+.nav-usuario a:hover{
+    color: #32A598;
+}
