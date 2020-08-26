@@ -28,6 +28,7 @@
     color:#ffce35;
 }
 
+
 .titulo-header p {
     font-size: 1.4rem;
     line-height: 1.8rem;
@@ -114,4 +115,24 @@
 
 .curso p {
     color:white;
+}
+
+
+/**contacto***/
+.contacto{
+    background-color: #eae5dc ;
+}
+.contacto a{
+    color:#4cc0b5;
+}
+.contacto h1{
+    color: #444341;
+}
+.contacto h2{
+        font-size: 1.5rem;
+        color: #444341;
+}
+.contacto h3{
+    font-size: 1.2rem;
+    color: #6d6e70;
 }
